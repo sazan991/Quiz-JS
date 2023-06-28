@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>quiz app</title>
+    <link rel="stylesheet" href="quizz.css">
+</head>
+<body>
+
+     <div class="main"> 
+        <div id="continer-box">
+            <h2 id="quesBox">1.This is the dumy Question</h2> 
+            <div id="boxForOption" >
+                <div class="row">
+                    <input type="radio" value="a" id="option1" class="option" name="a">
+                    <label for= "option1">Option l </label>
+                </div>
+                <div class="row">
+                    <input type="radio" value="b" id="option2" class="option" name="a">
+                    <label for= "option2">Option 2</label>
+                </div>
+                <div class="row">
+                    <input type="radio" value="c" id="option3" class="option" name="a">
+                    <label for= "option3">Option 3</label>
+                </div>
+                <div class="row">
+                    <input type="radio" value="d" id="option4" class="option" name="a">
+                    <label for= "option4">Option 4</label>
+                </div>
+                <div id="alertMsg"></div>
+                <div id="btnrow"><button id="submitBtn" onclick="btnClick()">Submit</button></div>
+            </div>
+        </div>
+     </div> 
+<script src="quizz.js"></script>
+</body>
+</html>  
